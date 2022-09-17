@@ -11,7 +11,7 @@ import time
 
 from op.cls import Class
 from op.dbs import find, fntime
-from op.obj import Object, format, get, name, update
+from op.obj import Object, get, name, printable, update
 from op.jsn import save
 from op.utl import elapsed
 from opr.bus import Bus

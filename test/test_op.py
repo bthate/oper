@@ -32,7 +32,6 @@ attrs1 = (
             'dump',
             'dumps',
             'find',
-            'format',
             'get',
             'items',
             'iter',
@@ -41,7 +40,8 @@ attrs1 = (
             'load',
             'loads',
             'otype',
-            'nme',
+            'printable',
+            'name',
             'register',
             'save',
             'search',
@@ -192,7 +192,7 @@ class TestObject(unittest.TestCase):
 
     def test_printable(self):
         obj = Object()
-        self.assertEqual(format(obj, keys(obj)), "")
+        self.assertEqual(printable(obj, keys(obj)), "")
 
     def test_get(self):
         obj = Object()
