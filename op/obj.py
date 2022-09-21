@@ -134,5 +134,6 @@ def update(obj, data):
     for key, value in items(data):
         setattr(obj, key, value)
 
+
 def values(obj):
     return obj.__dict__.values()

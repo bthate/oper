@@ -1,13 +1,4 @@
 # This file is placed in the Public Domain.
-#
-#
-# __init__.py - package
-
-
-""# This file is placed in the Public Domain.
-# pylint: disable=W0611,W0614,W0401,C0114,C0115,C0116
-#
-# spc.py - specification
 
 
 from .cls import Class
